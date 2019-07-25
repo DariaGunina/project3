@@ -5,19 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="sass/main.sass">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body class="body">
-    <div class = "card">
+    <header class="header">
+        <div class="header__conteiner">
+            <p class="header__name">Working board</p>
+        </div>
+    </header>
+    <div class="card">
+        <i class="card__fa fa fa-plus" aria-hidden="true"></i>
         <div class="card__text">Добавить задачу</div>
         <div class="card__overlay"></div>
     </div>
     
     
-    <div class="search">
-        <input class="search__input" type="text" name="search"/>
-        <button class="search__button">Добавить задачу</button>
-    </div>
+
     
     <script src="index.js"></script>
 </body>
