@@ -21,6 +21,6 @@ import { appendFile } from "fs";
         
       });
    
-      input.oninput = function() {
+      input.onchange = function() {
         result.innerHTML = input.value;
       };
