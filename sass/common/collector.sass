@@ -1,0 +1,63 @@
+.collector
+    background-color: #f9e9e9
+    border-radius: 20px
+    padding-right: 10px
+    width: 300px
+    position: relative
+
+    &_hidden
+        display: none
+
+    &__text
+        font-size: 20px
+        text-align: center
+        padding-top: 10px
+
+    &__input
+        width: 290px
+        margin: 7px
+        font-size: 15px
+        font-weight: 300
+        
+
+    &__button
+        background-color: #f7cedb
+        padding: 4px
+        border-radius: 20px
+        padding: 6px
+        margin: 10px
+        box-shadow: 0px 2px 2px 0px rgba(109, 106, 106, 0.7)
+        font-size: 15px
+
+    &__close
+        display: block
+        position: absolute
+        top: 12px
+        right: 12px
+        border: none
+        background-color: transparent
+        height: 20px
+        width: 20px
+        cursor: pointer
+        &::before 
+            content: ""
+            width: 15px
+            height: 2px
+            background-color: #cfcfcf
+            display: block
+            transform: rotate(50deg)
+            position: absolute
+            top: 9px
+            left: 3px
+        &::after
+            content: ""
+            width: 15px
+            height: 2px
+            background-color: #cfcfcf
+            display: block
+            transform: rotate(130deg)
+            position: absolute
+            top: 9px
+            left: 3px
+        
+
